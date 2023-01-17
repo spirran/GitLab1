@@ -1,0 +1,40 @@
+git init
+
+git add README.md
+git commit -m "Initial commit"
+
+git checkout -b feature1
+
+git add README.md
+git commit -m "Added dog and changed moose to mouse"
+
+git checkout main
+
+git add README.md
+git commit -m "Changed moose to mahmut"
+
+git merge feature1
+
+git add README.md
+git commit - m "Merged feature1"
+
+git tag extinct
+
+git reflog
+git reset --hard 8135
+
+git branch feature2
+
+git add README.md
+git commit -m "Added uppercase"
+
+git add fix1.txt
+git commit -m "Added fix1.txt"
+
+git add fix2.txt
+git commit -m "Added fix2.txt"
+
+git checkout main
+git reflog
+git cherry-pick 34aa
+
