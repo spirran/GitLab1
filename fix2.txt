@@ -38,3 +38,8 @@ git checkout main
 git reflog
 git cherry-pick 34aa
 
+git add fix2.txt
+git commit -m "Cherry-picked fix2.txt and added all work this far"
+
+git remote add origin https://github.com/spirran/GitLab1.git
+git push -u origin main
