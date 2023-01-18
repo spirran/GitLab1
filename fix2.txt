@@ -43,3 +43,8 @@ git commit -m "Cherry-picked fix2.txt and added all work this far"
 
 git remote add origin https://github.com/spirran/GitLab1.git
 git push -u origin main
+
+git tag -a v1.0 -m "Version 1.0"
+
+git rebase -i 438f
+(editerade en med reword och en med squash)
