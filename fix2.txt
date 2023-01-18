@@ -48,3 +48,4 @@ git tag -a v1.0 -m "Version 1.0"
 
 git rebase -i 438f
 (editerade en med reword och en med squash)
+git push -u origin main
